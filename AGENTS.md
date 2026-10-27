@@ -24,3 +24,6 @@ Guide for coding agents using or changing Kiwi Tray (Tiny Rooms for Agents, Your
 3. Never add passwords, tokens, keys, real hostnames, tailnet IPs or personal names. Use placeholders.
 4. Validate any new user-supplied value before it reaches a shell command or unit file.
 5. Keep `DRY_RUN=1` side-effect free.
+
+## Apple signing
+Use Apple team 207 Studio (Team ID `H32W23F7UW`) for all iOS/macOS signing, TestFlight and release. See README.
